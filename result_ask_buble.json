@@ -1,0 +1,55 @@
+{
+    "type": "flex",
+    "altText": "結果設定",
+    "contents": 
+    {
+        "type": "bubble",
+        "size": "kilo",
+        "header": {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+            {
+                "type": "text",
+                "text": "結果設定",
+                "align": "center",
+                "weight": "bold"
+            }
+            ],
+            "backgroundColor": "#EEEEEE"
+        },
+        "body": {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+            {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                {
+                    "type": "button",
+                    "action": {
+                        "type": "postback",
+                        "label": "スコアのみ",
+                        "data": "result, 0",
+                        "displayText": "スコアのみ"
+                    },
+                    "style": "primary"
+                },
+                {
+                    "type": "button",
+                    "action": {
+                        "type": "postback",
+                        "label": "詳細結果",
+                        "data": "result, 1",
+                        "displayText": "詳細結果"
+                    },
+                    "style": "primary",
+                    "margin": "10px"
+                }
+                ]
+            }
+            ]
+        }
+    }
+}

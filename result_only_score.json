@@ -1,0 +1,103 @@
+{
+  "type": "flex",
+  "altText": "スコアのみ結果",
+  "contents":
+  {
+    "type": "carousel",
+    "contents": [
+      {
+        "type": "bubble",
+        "hero": {
+          "type": "image",
+          "size": "xxl",
+          "aspectRatio": "1:1",
+          "aspectMode": "cover",
+          "url": "https://mws-line-bot-image.s3.ap-northeast-1.amazonaws.com/safe.png"
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "text",
+              "text": "Google検索Top10",
+              "wrap": true,
+              "weight": "bold",
+              "size": "lg"
+            },
+            {
+              "type": "separator",
+              "color": "#000000"
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "スコア",
+                  "size": "xl",
+                  "flex": 1
+                },
+                {
+                  "type": "text",
+                  "text": "0.9999999",
+                  "size": "xl",
+                  "align": "center",
+                  "gravity": "center"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "type": "bubble",
+        "hero": {
+          "type": "image",
+          "size": "xxl",
+          "aspectRatio": "1:1",
+          "aspectMode": "cover",
+          "url": "https://mws-line-bot-image.s3.ap-northeast-1.amazonaws.com/safe.png"
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "text",
+              "text": "Googleニュース検索Top10",
+              "wrap": true,
+              "weight": "bold",
+              "size": "lg"
+            },
+            {
+              "type": "separator",
+              "color": "#000000"
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "スコア",
+                  "size": "xl"
+                },
+                {
+                  "type": "text",
+                  "text": "0.1000",
+                  "size": "xl",
+                  "align": "center",
+                  "gravity": "center"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

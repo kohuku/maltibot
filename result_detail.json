@@ -1,0 +1,293 @@
+{
+  "type": "flex",
+  "altText": "詳細結果",
+  "contents":
+  {
+    "type": "carousel",
+    "contents": [
+      {
+        "type": "bubble",
+        "hero": {
+          "type": "image",
+          "size": "xxl",
+          "aspectRatio": "1:1",
+          "aspectMode": "cover",
+          "url": "https://mws-line-bot-image.s3.ap-northeast-1.amazonaws.com/safe.png"
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "text",
+              "text": "Google検索Top10",
+              "wrap": true,
+              "weight": "bold",
+              "size": "lg"
+            },
+            {
+              "type": "separator",
+              "color": "#000000"
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "スコア",
+                  "size": "xl",
+                  "flex": 1
+                },
+                {
+                  "type": "text",
+                  "text": "0.9999999",
+                  "size": "xl",
+                  "align": "center",
+                  "gravity": "center"
+                }
+              ]
+            },
+            {
+              "type": "separator"
+            }
+          ]
+        },
+        "footer": {
+          "type": "box",
+          "layout": "vertical",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "text",
+              "text": "関連する記事",
+              "align": "center",
+              "gravity": "center",
+              "size": "xl"
+            },
+            {
+              "type": "separator"
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "1",
+                  "maxLines": 3,
+                  "gravity": "center",
+                  "position": "absolute"
+                },
+                {
+                  "type": "text",
+                  "text": "なし",
+                  "color": "#1d3994",
+                  "offsetStart": "30px",
+                  "action": {
+                    "type": "uri",
+                    "label": "action",
+                    "uri": "https://www.google.com/"
+                  }
+                }
+              ],
+              "margin": "lg"
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "2",
+                  "maxLines": 3,
+                  "gravity": "center",
+                  "position": "absolute"
+                },
+                {
+                  "type": "text",
+                  "text": "なし",
+                  "color": "#1d3994",
+                  "offsetStart": "30px",
+                  "action": {
+                    "type": "uri",
+                    "label": "action",
+                    "uri": "https://www.google.com/"
+                  }
+                }
+              ],
+              "margin": "xxl"
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "3",
+                  "maxLines": 3,
+                  "gravity": "center",
+                  "position": "absolute"
+                },
+                {
+                  "type": "text",
+                  "text": "なし",
+                  "color": "#1d3994",
+                  "offsetStart": "30px",
+                  "action": {
+                    "type": "uri",
+                    "label": "action",
+                    "uri": "https://www.google.com/"
+                  }
+                }
+              ],
+              "margin": "xxl"
+            }
+          ]
+        }
+      },
+      {
+        "type": "bubble",
+        "hero": {
+          "type": "image",
+          "size": "xxl",
+          "aspectRatio": "1:1",
+          "aspectMode": "cover",
+          "url": "https://mws-line-bot-image.s3.ap-northeast-1.amazonaws.com/safe.png"
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "text",
+              "text": "Googleニュース検索Top10",
+              "wrap": true,
+              "weight": "bold",
+              "size": "lg"
+            },
+            {
+              "type": "separator",
+              "color": "#000000"
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "スコア",
+                  "size": "xl"
+                },
+                {
+                  "type": "text",
+                  "text": "0.1000",
+                  "size": "xl",
+                  "align": "center",
+                  "gravity": "center"
+                }
+              ]
+            },
+            {
+              "type": "separator"
+            }
+          ]
+        },
+        "footer": {
+          "type": "box",
+          "layout": "vertical",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "text",
+              "text": "関連するニュース",
+              "align": "center",
+              "gravity": "center",
+              "size": "xl"
+            },
+            {
+              "type": "separator"
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "1",
+                  "maxLines": 3,
+                  "gravity": "center",
+                  "position": "absolute"
+                },
+                {
+                  "type": "text",
+                  "text": "なし",
+                  "color": "#1d3994",
+                  "offsetStart": "30px",
+                  "action": {
+                    "type": "uri",
+                    "label": "action",
+                    "uri": "https://www.google.com/"
+                  }
+                }
+              ],
+              "margin": "lg"
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "2",
+                  "maxLines": 3,
+                  "gravity": "center",
+                  "position": "absolute"
+                },
+                {
+                  "type": "text",
+                  "text": "なし",
+                  "color": "#1d3994",
+                  "offsetStart": "30px",
+                  "action": {
+                    "type": "uri",
+                    "label": "action",
+                    "uri": "https://www.google.com/"
+                  }
+                }
+              ],
+              "margin": "xxl"
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "3",
+                  "maxLines": 3,
+                  "gravity": "center",
+                  "position": "absolute"
+                },
+                {
+                  "type": "text",
+                  "text": "なし",
+                  "color": "#1d3994",
+                  "offsetStart": "30px",
+                  "action": {
+                    "type": "uri",
+                    "label": "action",
+                    "uri": "https://www.google.com/"
+                  }
+                }
+              ],
+              "margin": "xxl"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
